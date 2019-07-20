@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="696.0" prefWidth="1025.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cardgame.GUIClass">
+    <children>
+      <MenuBar layoutY="2.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="btnStart" mnemonicParsing="false" onAction="#handleStart" text="Start" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fx:id="imgStash" fitHeight="120.0" fitWidth="90.0" layoutX="540.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true" />
+      <GridPane fx:id="p3Pane" layoutX="103.0" layoutY="146.0" prefHeight="255.0" prefWidth="120.0" />
+      <GridPane fx:id="p1Pane" layoutX="804.0" layoutY="146.0" prefHeight="255.0" prefWidth="120.0" />
+      <GridPane fx:id="p0Pane" layoutX="260.0" layoutY="519.0" prefHeight="90.0" prefWidth="370.0" />
+      <GridPane fx:id="p2Pane" layoutX="260.0" layoutY="57.0" prefHeight="90.0" prefWidth="370.0" />
+      <ImageView fx:id="imgDeck" fitHeight="120.0" fitWidth="90.0" layoutX="391.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnDraw" disable="true" layoutX="391.0" layoutY="432.0" mnemonicParsing="false" onAction="#handleDraw" prefHeight="47.0" prefWidth="90.0" text="Draw Card" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUNO" disable="true" layoutX="172.0" layoutY="119.0" mnemonicParsing="false" onAction="#handleUno" prefHeight="428.0" prefWidth="682.0" text="UNO!" visible="false">
+         <font>
+            <Font size="170.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="imgWin" disable="true" fitHeight="221.0" fitWidth="306.0" layoutX="360.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../../Images/Congrats.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblWin" layoutX="360.0" layoutY="176.0" prefHeight="57.0" prefWidth="306.0" text="               " visible="false" wrapText="true">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblP3" layoutX="25.0" layoutY="239.0" text="Mob" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblP2" layoutX="481.0" layoutY="27.0" text="Rob" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblP0" layoutX="459.0" layoutY="652.0" text="AP Java P7" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblP1" layoutX="966.0" layoutY="239.0" text="Bob" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

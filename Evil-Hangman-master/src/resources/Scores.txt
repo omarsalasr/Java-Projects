@@ -1,0 +1,6 @@
+Over: 9000
+C3PO: 650
+R2D2: 500
+Maker: 120
+Best: 5
+Omar: -300

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Project 2 Math - Regrade.jnlp">
+  <information>
+    <title>Project 2 Math - Regrade</title>
+    <vendor>omar</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Project 2 Math - Regrade" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="project.pkg2.math.Project2Math"  name="Project 2 Math - Regrade" />
+  <update check="always"/>
+</jnlp>

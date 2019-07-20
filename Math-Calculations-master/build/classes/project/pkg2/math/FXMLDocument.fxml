@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="196.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.pkg2.math.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="27.0" layoutY="23.0" onAction="#handleCalcArea" text="Calc the area of an Equilateral Triangle" />
+        <Label fx:id="label1" layoutX="27.0" layoutY="55.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="141.0" />
+      <Button fx:id="button1" layoutX="286.0" layoutY="23.0" onAction="#handleCalcVolume" text="Calc the volume of a Sphere" />
+      <Button fx:id="button2" layoutX="27.0" layoutY="144.0" onAction="#handleCalcTrig" text="Calc Trig" />
+      <Button fx:id="button3" layoutX="27.0" layoutY="86.0" onAction="#handleCalcBrahm" text="Calc Brahmagupta's Formula" />
+      <Button fx:id="button4" layoutX="257.0" layoutY="86.0" onAction="#handleCalcVolumeTetra" text="Calc the volume of a Tetrahedron" />
+      <Label fx:id="label2" layoutX="286.0" layoutY="55.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="165.0" />
+      <Label fx:id="label3" layoutX="113.0" layoutY="148.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="165.0" />
+      <Label fx:id="label4" layoutX="26.0" layoutY="119.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="165.0" />
+      <Label fx:id="label5" layoutX="257.0" layoutY="119.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="193.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="315.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.pkg4.FXMLDocumentController">
+    <children>
+        <Button fx:id="btnCell" layoutX="32.0" layoutY="31.0" onAction="#handleCellPhone" text="Cell Phone" />
+        <Label fx:id="lblAdded" layoutX="274.0" layoutY="96.0" minHeight="16" minWidth="69" wrapText="true" />
+      <Button fx:id="btnComp" layoutX="133.0" layoutY="31.0" onAction="#handleComputer" text="Computer" />
+      <Button fx:id="btnMonitor" layoutX="232.0" layoutY="31.0" onAction="#handleMonitor" text="Monitor" />
+      <Button fx:id="btnCharger" layoutX="320.0" layoutY="31.0" onAction="#handleCharger" text="Phone Charger" />
+      <Button fx:id="btnPay" disable="true" layoutX="32.0" layoutY="92.0" onAction="#handlePay" text="Pay Here" />
+      <Label fx:id="label0" layoutX="181.0" layoutY="96.0" minHeight="16" minWidth="69" text="Added Amount:" wrapText="true" />
+      <Label fx:id="label01" layoutX="212.0" layoutY="125.0" minHeight="16" minWidth="53.0" prefHeight="17.0" prefWidth="53.0" text="Sub Total:" textAlignment="RIGHT" wrapText="true" />
+      <Label fx:id="lblSub" layoutX="274.0" layoutY="125.0" minHeight="16" minWidth="69" wrapText="true" />
+      <Label fx:id="label011" layoutX="237.0" layoutY="180.0" minHeight="16" minWidth="30.0" prefHeight="17.0" prefWidth="30.0" text="Total:" textAlignment="RIGHT" wrapText="true" />
+      <Label fx:id="lblTotal" layoutX="274.0" layoutY="180.0" minHeight="16" minWidth="69" wrapText="true" />
+      <Label fx:id="lblChange" layoutX="34.0" layoutY="134.0" minHeight="16" minWidth="69" wrapText="true" />
+      <Label fx:id="label0111" layoutX="244.0" layoutY="151.0" minHeight="16" minWidth="23.0" prefHeight="17.0" prefWidth="23.0" text="Tax:" textAlignment="RIGHT" wrapText="true" />
+      <Label fx:id="lblTax" layoutX="274.0" layoutY="151.0" minHeight="16" minWidth="30.0" prefHeight="17.0" prefWidth="30.0" wrapText="true" />
+      <Button fx:id="btnAgain" layoutX="236.0" layoutY="265.0" onAction="#handleAgain" text="Shop Again" visible="false" />
+      <Button fx:id="btnTotal" disable="true" layoutX="238.0" layoutY="220.0" onAction="#handleTotal" text="Get Total" />
+    </children>
+</AnchorPane>

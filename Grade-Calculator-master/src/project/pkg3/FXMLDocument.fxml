@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="293.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.pkg3.FXMLDocumentController">
+    <children>
+        <Button fx:id="button1" layoutX="25.0" layoutY="81.0" onAction="#handleTestScores" text="Add Test Scores" />
+        <Label fx:id="lblTest" layoutX="180.0" layoutY="85.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="232.0" />
+      <Button fx:id="button2" layoutX="25.0" layoutY="134.0" onAction="#handleQuizScores" text="Add Quiz Scores" />
+      <Button fx:id="button3" layoutX="25.0" layoutY="187.0" onAction="#handleHWScores" text="Add Homework Scores" />
+      <Label fx:id="lblQuiz" layoutX="180.0" layoutY="138.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="232.0" />
+      <Label fx:id="lblHW" layoutX="180.0" layoutY="191.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="232.0" />
+      <Label fx:id="lblGrade" layoutX="87.0" layoutY="237.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="309.0" />
+      <Button fx:id="button4" layoutX="25.0" layoutY="29.0" onAction="#handleStart" prefHeight="25.0" prefWidth="101.0" text="Start" />
+      <Label fx:id="lblName" layoutX="149.0" layoutY="33.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="197.0" />
+    </children>
+</AnchorPane>

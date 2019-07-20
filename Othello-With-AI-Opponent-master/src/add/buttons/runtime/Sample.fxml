@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="aPane" prefHeight="485.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="add.buttons.runtime.GUICon">
+    <children>
+        <Button fx:id="btnStart" layoutX="628.0" layoutY="54.0" onAction="#handleStart" prefHeight="25.0" prefWidth="110.0" text="Start the Game" />
+      <GridPane fx:id="gPane" layoutX="43.0" layoutY="39.0" prefHeight="400.0" prefWidth="400.0">
+        
+      </GridPane>
+      <Label fx:id="lblPlayer1" layoutX="606.0" layoutY="168.0" text="Name 1&#10;" visible="false" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayer2" layoutX="606.0" layoutY="218.0" text="Name 2" visible="false" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblScore2" layoutX="722.0" layoutY="218.0" text="0" textAlignment="CENTER" visible="false" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblScore1" layoutX="723.0" layoutY="168.0" text="0" textAlignment="CENTER" visible="false" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblScores" layoutX="712.0" layoutY="119.0" text="Score" visible="false" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPlayers" layoutX="607.0" layoutY="119.0" text="Players" visible="false" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgP1Turn" fitHeight="25.0" fitWidth="25.0" layoutX="537.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Images/Arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgP2Turn" fitHeight="25.0" fitWidth="25.0" layoutX="538.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Images/Arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgP2Tile" fitHeight="25.0" fitWidth="25.0" layoutX="572.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../../../../Images/White.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgP1Tile" fitHeight="25.0" fitWidth="25.0" layoutX="572.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../../../../Images/Black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgWin" fitHeight="139.0" fitWidth="238.0" layoutX="509.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <Label fx:id="lblWinner" alignment="CENTER" layoutX="516.0" layoutY="296.0" prefHeight="30.0" prefWidth="224.0" text="The winner goes here" textAlignment="CENTER" visible="false" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Label>
+        <!--
+        <GridPane fx:id="gPane" layoutX="14.0" layoutY="0.0" prefHeight="336.0" prefWidth="381.0">
+            <columnConstraints>
+               
+            </columnConstraints>
+            <rowConstraints>
+              
+            </rowConstraints>
+        </GridPane>
+        -->
+        
+    </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="158.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.pkg5.GUICon">
+    <children>
+        <Button fx:id="btnTriangle" layoutX="42.0" layoutY="36.0" onAction="#handleTriangle" text="Triangle" />
+        <Label fx:id="lblTriangle" layoutX="37.0" layoutY="84.0" minHeight="16" minWidth="69" wrapText="true" />
+      <Button fx:id="btnQuad" layoutX="209.0" layoutY="36.0" onAction="#handleQuad" text="Quadrilateral" />
+      <Label fx:id="lblQuad" layoutX="217.0" layoutY="84.0" minHeight="16" minWidth="69" wrapText="true" />
+    </children>
+</AnchorPane>

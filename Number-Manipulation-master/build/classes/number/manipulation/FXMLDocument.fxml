@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="100" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="number.manipulation.GUICon">
+    <children>
+        <Button fx:id="button" layoutX="14.0" layoutY="35.0" onAction="#handlePrimeNum" text="Prime Numbers" />
+      <Button fx:id="button1" layoutX="134.0" layoutY="35.0" onAction="#handleFactors" text="Factors" />
+      <Button fx:id="button2" layoutX="207.0" layoutY="35.0" onAction="#handleConversion" text="Base Conversion" />
+    </children>
+</AnchorPane>
